@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && tsc index.tsx --outDir dist"
+    "build": "rimraf dist && tsc index.tsx --outDir dist",
+    "watch": "tsc index.ts --outDir dist --watch"
   },
   "dependencies": {
     "@types/react": "^18.0.27",
