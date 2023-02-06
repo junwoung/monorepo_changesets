@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && tsc index.ts --outDir dist"
+    "build": "rimraf dist && tsc index.tsx --outDir dist"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "typescript": "^4.9.5"
+  }
 }

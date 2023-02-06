@@ -6,22 +6,31 @@ importers:
     specifiers:
       rimraf: ^4.1.2
       tsc: ^2.0.4
+      typescript: ^4.9.5
     dependencies:
       rimraf: 4.1.2
       tsc: 2.0.4
+      typescript: 4.9.5
 
   packages/components:
     specifiers:
       '@types/react': ^18.0.27
       react: ^18.2.0
+      typescript: ^4.9.5
       utils: ^1.0.0
     dependencies:
       '@types/react': 18.0.27
       react: 18.2.0
+      typescript: 4.9.5
       utils: link:../utils
 
   packages/utils:
-    specifiers: {}
+    specifiers:
+      lodash: ^4.17.21
+      typescript: ^4.9.5
+    dependencies:
+      lodash: 4.17.21
+      typescript: 4.9.5
 
 packages:
 
@@ -49,6 +58,10 @@ packages:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: false
 
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
   /loose-envify/1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
@@ -71,5 +84,11 @@ packages:
 
   /tsc/2.0.4:
     resolution: {integrity: sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==}
+    hasBin: true
+    dev: false
+
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
+    engines: {node: '>=4.2.0'}
     hasBin: true
     dev: false
