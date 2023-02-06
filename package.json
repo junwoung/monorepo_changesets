@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r --filter=./packages/* run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rimraf": "^4.1.2",
+    "tsc": "^2.0.4"
+  }
+}
