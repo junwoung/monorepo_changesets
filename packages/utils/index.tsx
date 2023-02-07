@@ -1,3 +1,3 @@
 export const funcA = (words: string) => {
-  return 'hh,this is funcA' + words;
+  return 'hh2,this is funcA' + words;
 };
