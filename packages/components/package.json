@@ -1,6 +1,6 @@
 {
   "name": "wj-demo-monorepo-workspace-components",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "@types/react": "^18.0.27",
     "react": "^18.2.0",
     "typescript": "^4.9.5",
-    "utils": "^1.0.0"
+    "wj-demo-monorepo-workspace-utils": "~2.0.0"
   },
   "keywords": [],
   "author": "",

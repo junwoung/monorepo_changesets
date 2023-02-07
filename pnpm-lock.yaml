@@ -20,12 +20,12 @@ importers:
       '@types/react': ^18.0.27
       react: ^18.2.0
       typescript: ^4.9.5
-      utils: ^1.0.0
+      wj-demo-monorepo-workspace-utils: ~2.0.0
     dependencies:
       '@types/react': 18.0.27
       react: 18.2.0
       typescript: 4.9.5
-      utils: link:../utils
+      wj-demo-monorepo-workspace-utils: link:../utils
 
   packages/utils:
     specifiers:
