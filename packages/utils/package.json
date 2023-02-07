@@ -2,7 +2,7 @@
   "name": "wj-demo-monorepo-workspace-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc index.tsx --outDir dist",
     "watch": "tsc index.tsx --outDir dist --watch"
